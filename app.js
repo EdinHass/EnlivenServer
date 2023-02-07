@@ -3,8 +3,8 @@ const express = require('express')
 const app = express()
 const port = 3000
 
-const api_key = 'dhha7wesgt7e'
-const api_secret = 't4tpfnbru3vasevc6r2avyydn8wzxqecvnqd39gfqq57wcfy5fmcmsy8yaunbmes'
+const api_key = 'efvau2adu3pn'
+const api_secret = 'bqqf5s7c2wch3kqprybv8yb9c72b2sgftzh9p9kxt7srq85mq36fntgpnh5k35kh'
 
 app.get('/token', (req, res) =>{
     if(req.query.user_id){
